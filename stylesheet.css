@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/relbawahtanah.jpg');
+	background-size: 85%;
+
+}
+
+header{
+	height: 65px;
+	width: 100%;
+	background-color: rgba(20, 20, 30, 0.4);
+	top: 0;
+	position: fixed;
+	z-index: 10;
+}
+
+header h1{
+	text-align: center;
+	color: white;
+}
+
+.atas-wrapper{
+	padding-top: 90px;
+	padding-left: 90px;
+	padding-right: 90px;
+	color: white;
+}
+
+.atas-wrapper h3{
+	text-align: center;
+}
+
+.progress{
+	height: 30px;
+	width: 100%;
+	background-color: #e3dfde;
+	border-radius: 33px;
+}
+
+.value{
+	background-color: blue;
+	display: inline-block;
+	height: 100%;
+	border-radius: 33px;
+}
+
+.progress::before{
+	content: attr(data-label);
+	font-size: 21px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	color: black;
+}
+
+hr{
+	margin-top: 30px;
+}
+
+button{
+	padding: 12px 24px;
+	color: white;
+	opacity: 0.8;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.tombol{
+	text-align: center;
+}
+
+img{
+	width: 2%;
+	height: auto;
+}
+
+.indicator{
+	padding-top: 10px;
+	text-align: center;
+}
